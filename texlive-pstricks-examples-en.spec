@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pstricks-examples
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 These are the examples from the book 'PSTricks: Graphics and
@@ -2414,7 +2412,6 @@ PostScript for TeX and LaTeX'.
 %doc %{_texmfdistdir}/doc/latex/pstricks-examples-en/temp.dat
 %doc %{_texmfdistdir}/doc/latex/pstricks-examples-en/test10.dat
 %doc %{_texmfdistdir}/doc/latex/pstricks-examples-en/textdemo.sty
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -2425,5 +2422,3 @@ PostScript for TeX and LaTeX'.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
