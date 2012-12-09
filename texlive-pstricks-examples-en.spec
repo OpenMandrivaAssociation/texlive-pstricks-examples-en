@@ -2422,3 +2422,16 @@ PostScript for TeX and LaTeX'.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111014-2
++ Revision: 755424
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111014-1
++ Revision: 719391
+- texlive-pstricks-examples-en
+- texlive-pstricks-examples-en
+- texlive-pstricks-examples-en
+
