@@ -1,12 +1,12 @@
-# revision 24289
+# revision 29349
 # category Package
 # catalog-ctan /info/examples/PSTricks_en
-# catalog-date 2011-10-14 08:44:25 +0200
+# catalog-date 2012-04-05 17:28:29 +0200
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-pstricks-examples-en
-Version:	20111014
-Release:	2
+Version:	20120405
+Release:	1
 Summary:	Examples from PSTricks book (English edition)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/PSTricks_en
@@ -2422,16 +2422,3 @@ PostScript for TeX and LaTeX'.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111014-2
-+ Revision: 755424
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111014-1
-+ Revision: 719391
-- texlive-pstricks-examples-en
-- texlive-pstricks-examples-en
-- texlive-pstricks-examples-en
-
