@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-pstricks-examples-en
 Version:	20120405
-Release:	3
+Release:	4
 Summary:	Examples from PSTricks book (English edition)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/PSTricks_en
