@@ -9,7 +9,7 @@ Version:	20120405
 Release:	11
 Summary:	Examples from PSTricks book (English edition)
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/examples/PSTricks_en
+URL:		https://www.ctan.org/tex-archive/info/examples/PSTricks_en
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pstricks-examples-en.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pstricks-examples-en.doc.tar.xz
